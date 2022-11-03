@@ -16,6 +16,7 @@ import Wonder from './Pages/Wonder';
 import Flash from './Pages/Flash';
 import Batman from './Pages/Batman';
 import Superman from './Pages/Superman';
+import GreenArrow from './Pages/GreenArrow';
 
 const App = () => {
     return ( 
@@ -35,6 +36,7 @@ const App = () => {
                                 <Route path='auqaman' element={(<Auqaman/>)} /> 
                                 <Route path='martianManHunter' element={(<ManHunter/>)} />
                                 <Route path='hawkgirl' element={(<Hawkgirl/>)} />
+                                <Route path='greenArrow' element={(<GreenArrow/>)} />
                             </Routes>
                         </div>
                     <Footer/>

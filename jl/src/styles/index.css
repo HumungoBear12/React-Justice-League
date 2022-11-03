@@ -182,6 +182,11 @@ input[type="button"] {
 /* grey used for paragraphs */
 /* lightest grey - used for outlines */
 /* Other Colors used */
+@font-face {
+  font-family: JL;
+  src: url(../Fonts/JUSTICELEAGUE.ttf);
+}
+
 body {
   background-color: white;
   overflow-x: hidden;
@@ -197,6 +202,77 @@ body {
 /* grey used for paragraphs */
 /* lightest grey - used for outlines */
 /* Other Colors used */
+.home-container h2 {
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 30px;
+  font-family: JL;
+  padding-bottom: 30px;
+}
+
+.home-container .home-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.home-container .ZSJL {
+  height: 55.9rem;
+  width: 40%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+          box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.home-container .home-info {
+  width: 45rem;
+  display: block;
+  padding: 10px;
+}
+
+.home-container .home-info p {
+  width: 90%;
+}
+
+.home-container .home-info h3 {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 2rem;
+}
+
+.home-container .home-info .home-character {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px;
+}
+
+.home-container .home-info .home-character img {
+  height: 14rem;
+  width: 9rem;
+  margin: .25rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+
+.home-container .home-info .home-character a {
+  text-align: center;
+}
+
+.home-container .home-info .home-character img:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+          box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -207,7 +283,7 @@ body {
   -webkit-box-shadow: #26394d 0px 20px 30px -10px;
           box-shadow: #26394d 0px 20px 30px -10px;
   padding: 10px;
-  background-color: black;
+  background-color: #101010;
 }
 
 .navbar .Header {
@@ -222,7 +298,7 @@ body {
 .navbar .Links {
   margin-right: auto;
   margin-left: auto;
-  width: 80%;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -261,7 +337,9 @@ body {
 .navbar .Links .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #000000;
+  border-radius: .75rem;
+  border: 1px solid #00b3ff !important;
   min-width: 160px;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -270,7 +348,7 @@ body {
 
 .navbar .Links .dropdown-content a {
   float: none;
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -278,7 +356,7 @@ body {
 }
 
 .navbar .Links .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #1c1c1c;
 }
 
 .navbar .Links .dropdown:hover .dropdown-content {
@@ -286,6 +364,8 @@ body {
 }
 
 .navbar .Links a {
+  width: 10rem;
+  text-align: center;
   padding: 20px;
 }
 
@@ -305,5 +385,7 @@ body {
   margin-top: -5.2rem;
   width: 100%;
   height: 35rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+          box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 /*# sourceMappingURL=index.css.map */
