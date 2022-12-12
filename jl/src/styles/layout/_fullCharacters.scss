@@ -1,0 +1,50 @@
+ 
+
+
+.full-head{
+    text-align: center;
+    font-size:4rem;
+    font-family: jl;
+}
+.hr{
+    border-top:1px solid black;
+}
+
+.Full-Char{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    div{
+        width:20rem;
+        // height:20rem;
+        padding: 10px;
+        h3{
+            text-align: center;
+            position: relative;
+            top: 26em;
+            font-weight: bolder;
+            width: 100%;
+            height:3rem;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            background-color:rgb(5, 5, 5);
+            visibility: hidden;
+            color: white;
+        }
+        img{
+            margin-left:auto;
+            margin-right:auto;
+            height:30rem;
+            width:25rem;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        }
+    }
+    div:hover{
+        opacity: .9;
+        h3{
+            visibility: visible;
+        }
+    }
+}

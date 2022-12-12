@@ -1,5 +1,7 @@
 import React from 'react'
 import Banner from '../Components/banner'
+import Comics from '../Components/comics'
+import Clips from '../Components/clips'
 
 const Home = () => {
   return (
@@ -26,6 +28,12 @@ const Home = () => {
                   </div>
                 </div>
             </div>
+          </div>
+          <div>
+            <Comics/>
+          </div>
+          <div>
+            <Clips/>
           </div>
         </div>
     </div>

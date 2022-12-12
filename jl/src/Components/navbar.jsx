@@ -1,22 +1,24 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 
 const navbar = () => {
   return (
     <div>
-        <div class="navbar">
-            {/* <div Class="Header">
+        <div className="navbar">
+            {/* <div className="Header">
                 <h2>THE JUSTICE LEAGUE</h2>
             </div> */}
-            <div Class="Links">
-                <a>Home</a>
-                <a>About</a>
-                <a>Movies</a>
-                <a>Games</a>
-                <a>TV-Shows</a>
-                <a>Full Characters</a>
-                <div class="dropdown">
-                <button class="dropbtn">Members<i class="fa fa-caret-down"></i></button>
-                <div class="dropdown-content">
+            <div className="Links">
+                <Link>Home</Link>
+                {/* <Link>About</Link> */}
+                <Link>Movies</Link>
+                <Link>Games</Link>
+                <Link>TV-Shows</Link>
+                <Link to="/fullCharacters">Full Characters</Link>
+                
+                <div className="dropdown">
+                <button className="dropbtn">Members<i className="fa fa-caret-down"></i></button>
+                <div className="dropdown-content">
                 <a href="#">Superman</a>
                 <a href="#">Batman</a>
                 <a href="#">Wonder Woman</a>

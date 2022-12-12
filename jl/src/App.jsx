@@ -17,6 +17,7 @@ import Flash from './Pages/Flash';
 import Batman from './Pages/Batman';
 import Superman from './Pages/Superman';
 import GreenArrow from './Pages/GreenArrow';
+import Full from './Pages/FullCharacters'
 
 const App = () => {
     return ( 
@@ -37,6 +38,7 @@ const App = () => {
                                 <Route path='martianManHunter' element={(<ManHunter/>)} />
                                 <Route path='hawkgirl' element={(<Hawkgirl/>)} />
                                 <Route path='greenArrow' element={(<GreenArrow/>)} />
+                                <Route path='fullCharacters' element={(<Full/>)} />
                             </Routes>
                         </div>
                     <Footer/>
