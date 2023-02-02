@@ -51,7 +51,7 @@ const clips = () => {
                 <div className="clips-div1">
                         <div>
                             <h3>Wonder Woman | No Man's Land Battle </h3>
-                            <p>When Steve tells Diana that crossing No Man's Land is impossible, she personally leads the charge into enemy territory.</p>
+                            <p>When Steve tells Diana that crossing No Man's Land is impossible, she personally leads the charge into enemy territory, As she does heroically.</p>
                             <a href="https://youtu.be/lLfQ81xwf6I"><button>Click Here</button></a>
                         </div>
                         <img src="https://s3-us-west-2.amazonaws.com/prd-rteditorial/wp-content/uploads/2019/02/06145556/wonder-woman-no-mans-land-700x380.jpg" alt="" />

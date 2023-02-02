@@ -9,7 +9,7 @@ const navbar = () => {
                 <h2>THE JUSTICE LEAGUE</h2>
             </div> */}
             <div className="Links">
-                <Link>Home</Link>
+                <Link to="/">Home</Link>
                 {/* <Link>About</Link> */}
                 <Link>Movies</Link>
                 <Link>Games</Link>
