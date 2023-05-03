@@ -11,7 +11,7 @@ const navbar = () => {
             <div className="Links">
                 <Link to="/">Home</Link>
                 {/* <Link>About</Link> */}
-                <Link>Movies</Link>
+                <Link to="/movies">Movies</Link>
                 <Link>Games</Link>
                 <Link>TV-Shows</Link>
                 <Link to="/fullCharacters">Full Characters</Link>
@@ -19,6 +19,7 @@ const navbar = () => {
                 <div className="dropdown">
                 <button className="dropbtn">Members<i className="fa fa-caret-down"></i></button>
                 <div className="dropdown-content">
+                
                 <a href="#">Superman</a>
                 <a href="#">Batman</a>
                 <a href="#">Wonder Woman</a>

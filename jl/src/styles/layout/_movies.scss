@@ -1,0 +1,64 @@
+.movie-container{
+    h2{
+        text-align: center;
+        font-size: 4rem;
+        font-weight: bold;
+        margin-bottom: 3rem;
+    }
+    hr{
+        border-top: 1px solid black;
+        width: 80%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .movie-flex{
+        display: flex;
+        justify-content:space-around;
+        flex-direction:row;
+        width: 80%;
+        margin-left:auto;
+        margin-right:auto;
+        .anime-text{
+            text-align:center;
+            color: rgb(255, 255, 255);
+            visibility: hidden;
+            font-size: 3rem;
+            position: relative;
+            top:42rem;
+            background-color: black;
+            opacity: 1;
+        }
+        .anime{
+            height: 45rem;
+            width: 35rem;
+            background-image: url('https://wallpaperaccess.com/full/3605005.jpg');
+            background-size: cover;
+        }
+        .anime:hover{
+            .anime-text{
+                visibility: visible;
+            }
+        }
+        .live-text{
+            text-align:center;
+            color: rgb(255, 255, 255);
+            visibility: hidden;
+            font-size: 3rem;
+            position: relative;
+            top:42rem;
+            background-color: black;
+            opacity: 1;
+        }
+        .live{
+            height: 45rem;
+            width: 35rem;
+            background-image: url('https://w0.peakpx.com/wallpaper/955/505/HD-wallpaper-justice-league-dc-movie-superheroes.jpg');
+            background-size: cover;
+        }
+        .live:hover{
+            .live-text{
+                visibility: visible;
+            }
+        }
+    }
+}
