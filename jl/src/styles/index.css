@@ -361,65 +361,6 @@ a {
   margin-right: auto;
 }
 
-.movie-container .movie-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.movie-container .movie-flex .anime-text {
-  text-align: center;
-  color: white;
-  visibility: hidden;
-  font-size: 3rem;
-  position: relative;
-  top: 42rem;
-  background-color: black;
-  opacity: 1;
-}
-
-.movie-container .movie-flex .anime {
-  height: 45rem;
-  width: 35rem;
-  background-image: url("https://wallpaperaccess.com/full/3605005.jpg");
-  background-size: cover;
-}
-
-.movie-container .movie-flex .anime:hover .anime-text {
-  visibility: visible;
-}
-
-.movie-container .movie-flex .live-text {
-  text-align: center;
-  color: white;
-  visibility: hidden;
-  font-size: 3rem;
-  position: relative;
-  top: 42rem;
-  background-color: black;
-  opacity: 1;
-}
-
-.movie-container .movie-flex .live {
-  height: 45rem;
-  width: 35rem;
-  background-image: url("https://w0.peakpx.com/wallpaper/955/505/HD-wallpaper-justice-league-dc-movie-superheroes.jpg");
-  background-size: cover;
-}
-
-.movie-container .movie-flex .live:hover .live-text {
-  visibility: visible;
-}
-
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
