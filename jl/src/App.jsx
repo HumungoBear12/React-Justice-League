@@ -19,6 +19,7 @@ import Superman from './Pages/Superman';
 import GreenArrow from './Pages/GreenArrow';
 import Full from './Pages/FullCharacters';
 import Movies from './Pages/Movies'
+import Banner from './Components/banner'
 
 const App = () => {
     return ( 
@@ -26,6 +27,7 @@ const App = () => {
            <Router>
                     <div>
                         <Navbar />
+                        <Banner/>
                             <p style={{height: '10vh'}} />
                             <Routes>
                                 <Route index element={<Home />} />

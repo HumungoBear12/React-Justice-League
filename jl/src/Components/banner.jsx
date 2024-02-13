@@ -3,7 +3,7 @@ import React from 'react'
 const banner = () => {
   return (
     <div className="banner">
-        <img src="https://wallpapercave.com/wp/wp2862894.jpg" alt="" />
+        <img src="https://images6.alphacoders.com/133/1330933.jpeg" alt="" />
     </div>
   )
 }

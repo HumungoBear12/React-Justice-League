@@ -6,7 +6,7 @@ import Clips from '../Components/clips'
 const Home = () => {
   return (
     <div>
-        <Banner/>
+        {/* <Banner/> */}
         <div className="home-container">
           <h2>The Justice League</h2>
           <div className="home-flex">
