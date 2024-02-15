@@ -10,11 +10,15 @@
   src: url(../Fonts/JUSTICELEAGUE.ttf);
 }
 body {
-  background-color: rgb(169, 169, 169);
+  background-color: rgb(27, 27, 27);
   overflow-x: hidden;
 }
 
 a{
   text-decoration: none;
+  color: white;
+}
+
+p,h1,h2,h3,h4,h5,h6{
   color: white;
 }

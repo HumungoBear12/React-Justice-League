@@ -1,5 +1,5 @@
 import React from 'react'
-import Banner from '../Components/banner'
+// import Banner from '../Components/banner'
 import Comics from '../Components/comics'
 import Clips from '../Components/clips'
 
@@ -8,9 +8,9 @@ const Home = () => {
     <div>
         {/* <Banner/> */}
         <div className="home-container">
-          <h2>The Justice League</h2>
+          <h2 className='home-2'>The Justice League</h2>
           <div className="home-flex">
-            <img className="ZSJL" src="https://preview.redd.it/88tinsbw9e981.jpg?auto=webp&s=c8c900a264c77faafbf525c0abddced1aa2e5e58" alt="" />
+            <img className="ZSJL" src="https://comichub.blob.core.windows.net/high/ed81177b-bf0f-4d4d-8155-3f1ba56e0f68.jpg" alt="" />
             <div className="home-info">
                 <p><strong>The World's Greatest Super Heroes</strong>, the Justice League has endured many roster changes to remain the earth's premiere team of champions.Separately, DC Super Heroes like Superman, Batman, Wonder Woman, Flash and Green Lantern are the greatest fighters for truth and justice the world has ever known. <br/><br/>Collectively, however, they are a force of nature, leaders of a team of heroes who are only rivaled by the pantheons of gods from ancient mythology—the Justice League. The League is the earth’s first line of defense against threats too large for humanity to face alone.<br/><br/>For decades, the Justice League has saved humanity from the worst threats it has ever faced, from alien warlords to ancient demons and powerful sorcerers, to the God of Evil himself, Darkseid. And every time, they have overcome the odds and saved the human race.<br/><br/>Although the Justice League is not the world’s first superhero team, it is nevertheless the standard by which all other superhero teams are measured. Although the League has gone through several permutations over the years, and has broken up and gotten back together countless times, when the chips are down and the earth needs its greatest heroes back together on the front lines, the League always answers the call to duty.</p>
                 <div>

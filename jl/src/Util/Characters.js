@@ -77,7 +77,7 @@ const character = [
     {
         id:16,
         Name:"Zatana",
-        Image:"https://www.wallpaperup.com/uploads/wallpapers/2014/11/26/529514/dfa61e96b6278a4f45c2682b73f03cca-700.jpg",
+        Image:"https://w0.peakpx.com/wallpaper/9/693/HD-wallpaper-zatanna-beauty-dc-drawing-thumbnail.jpg",
     },
     {
         id:17,

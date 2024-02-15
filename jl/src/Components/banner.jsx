@@ -3,7 +3,7 @@ import React from 'react'
 const banner = () => {
   return (
     <div className="banner">
-        <img src="https://images6.alphacoders.com/133/1330933.jpeg" alt="" />
+        <img src="https://wallpapers.com/images/high/justice-league-symbol-minimal-art-bw3c08jo19yeku7p.webp" alt="" />
     </div>
   )
 }

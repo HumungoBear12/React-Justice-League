@@ -27,7 +27,7 @@ const App = () => {
            <Router>
                     <div>
                         <Navbar />
-                        <Banner/>
+                        {/* <Banner/> */}
                             <p style={{height: '10vh'}} />
                             <Routes>
                                 <Route index element={<Home />} />

@@ -3,7 +3,7 @@ import React from 'react'
 const comics = () => {
   return (
     <div className="container-comics">
-        <h2>Justice League Comics</h2>
+        <h2 className="comic-2">Justice League Comics</h2>
             <div className="comics">
                 <a href=""><img src="https://m.media-amazon.com/images/I/6185e6gWxTL._AC_SY780_.jpg" alt="" /></a>
                 <a href=""><img src="https://upload.wikimedia.org/wikipedia/en/2/2f/JLA_Tower.jpg" alt="" /></a>

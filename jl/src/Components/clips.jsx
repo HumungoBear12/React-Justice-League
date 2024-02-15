@@ -22,7 +22,7 @@ const clips = () => {
     }
   return (
     <div className="container-clips">
-        <h2>Clips From Justice League</h2>
+        <h2 className='clip-2'>Clips From Justice League</h2>
         <div className="clips-container">
             <div className="clips-flex">
                     <div className="clips-div1">
@@ -32,7 +32,7 @@ const clips = () => {
                                 <p>"Am I Blue?"—The song Batman sings in order to free Wonder Woman from her enchantment—was previously featured in Batman & Mr. Freeze: SubZero, where it is heard playing on the radio of Barbara Gordon's roommate</p>
                                 <a href="https://youtu.be/w4XIAjNuHPg"><button>Click Here</button></a>
                             </div>
-                            <img style={bat} src="https://i.ytimg.com/vi/FaFLjGZe2Kw/maxresdefault.jpg" alt="" />
+                            <img style={bat} src="https://i.redd.it/en2wzcwmmrgc1.jpeg" alt="" />
                     </div>
                     <div className="clips-div2">
                             <div>
@@ -46,16 +46,16 @@ const clips = () => {
                     <div className="clips-div1">
                     <img style={bat1} src="https://i.ytimg.com/vi/TlVauMtPgTs/maxresdefault.jpg" alt="" />
                             <div>
-                                <h3>Batman risks it all</h3>
+                                <h3>Batman Risks it All</h3>
                                 <hr />
-                                <p>Some time after the end of Justice League, Justice League Unlimited focuses on a revamped League of about 60 superheroes, where the original team joins in their battle against crime and evil by dozens of other heroes from the DC Comics Universe.</p>
+                                <p>In Justice League S2E13's climax, Batman's tactical genius shines as he orchestrates a daring plan to thwart the Thanagarian invasion, rallying his allies and sacrificing to protect Earth from destruction, securing victory against overwhelming odds.</p>
                                 <a href="https://youtu.be/TlVauMtPgTs"><button>Click Here</button></a>
                             </div>
                     </div>
                     <div className="clips-div2">
                     <img style={top} src="https://i.ytimg.com/vi/vjKMHqCDdD8/maxresdefault.jpg" alt="" />
                             <div>
-                                <h3>The Flash turns back time </h3>
+                                <h3>The Flash Turns Back Time </h3>
                                 <hr />
                                 <p>In Zacks Synders Justice League fail to stop the mother box from forming unity and the flash is the only one who can fix it, and he does so by breaking his one rule...</p>
                                 <a href="https://youtu.be/tmO0w1pXHjs"><button>Click Here</button></a>
