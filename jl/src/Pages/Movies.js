@@ -6,6 +6,7 @@ const FullCharacters = () => {
   return (
     <div>
       <h2 className="mov-header">Justice League Movies</h2>
+      {/* <hr className="mov-hr"/> */}
         <div>
             {mov.map((full)=>{
                 const {id, title, img, description} = full;

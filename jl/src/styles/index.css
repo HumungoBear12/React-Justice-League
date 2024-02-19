@@ -318,6 +318,14 @@ p, h1, h2, h3, h4, h5, h6 {
   font-family: jl;
 }
 
+.mov-hr {
+  border-top: 1px solid rgb(49, 128, 255);
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .mov-container {
   margin-top: 1rem;
   display: flex;
@@ -330,6 +338,7 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: rgb(32, 32, 32);
   border-radius: 0.75rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border: 1px solid rgb(49, 128, 255);
 }
 .mov-container img {
   width: 30rem;
