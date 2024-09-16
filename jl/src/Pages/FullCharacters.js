@@ -6,7 +6,7 @@ const FullCharacters = () => {
   return (
     <div>
         <h2 className="full-head">Members of the Justice League</h2>
-        <hr className="hr"/>
+        {/* <hr className="hr"/> */}
         <div className="Full-Char">
             {char.map((full)=>{
                 const {id, Name, Image} = full;

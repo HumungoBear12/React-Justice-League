@@ -19,7 +19,8 @@ import Superman from './Pages/Superman';
 import GreenArrow from './Pages/GreenArrow';
 import Full from './Pages/FullCharacters';
 import Movies from './Pages/Movies'
-import Banner from './Components/banner'
+import Games from './Pages/Games'
+import Shows from './Pages/Shows'
 
 const App = () => {
     return ( 
@@ -32,6 +33,8 @@ const App = () => {
                             <Routes>
                                 <Route index element={<Home />} />
                                 <Route path='movies' element={<Movies/>}/>
+                                <Route path='games' element={<Games/>}/>
+                                <Route path='shows' element={<Shows/>}/>
                                 <Route path='superman' element={(<Superman/>)} />
                                 <Route path='batman' element={(<Batman/>)} />
                                 <Route path='wonderWoman' element={(<Wonder/>)} /> 

@@ -12,13 +12,14 @@ const navbar = () => {
             <div className="Links">
                 <Link to="/"><h2 className='navlink'>Home</h2></Link>
                 <Link to="/movies"><h2  className='navlink'>Movies</h2></Link>
-                <Link><h2  className='navlink'>Games</h2></Link>
-                <Link><h2 className='navlink'>TV-Shows</h2></Link>
+                <Link to="/games"><h2  className='navlink'>Games</h2></Link>
+                <Link to='/shows'><h2 className='navlink'>TV-Shows</h2></Link>
                 <Link to="/fullCharacters"><h2 className='navlink'>Full Characters</h2></Link>
                 
                 <div className="dropdown">
                   <button className="dropbtn">Members<i className="fa fa-caret-down"></i></button>
                       <div className="dropdown-content">
+                      {/* <Link path='/superman'></Link> */}
                       <a href="#">Superman</a>
                       <a href="#">Batman</a>
                       <a href="#">Wonder Woman</a>
