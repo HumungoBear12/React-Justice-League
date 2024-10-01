@@ -63,7 +63,7 @@ const movies = [
         id:'11',
         title:'Justice League Dark (2017)',
         description:"Justice League Dark (2017) delves into the supernatural realm as a series of disturbing events plague the world, stemming from mystical forces beyond the comprehension of the Justice League. Batman recruits a team of occult experts, including John Constantine, Zatanna, Deadman, and Swamp Thing, to investigate and combat the growing supernatural threats. As they uncover a plot orchestrated by the demon lord, Destiny, to unleash chaos upon the world, the team must navigate treacherous dimensions and confront their own inner demons. Along the way, they forge uneasy alliances and grapple with the moral complexities of wielding dark magic in the name of justice. The film explores themes of redemption, sacrifice, and the blurred line between good and evil in a world where the supernatural lurks in the shadows. Through its atmospheric animation and captivating storyline, Justice League Dark offers a thrilling and mystical adventure that showcases the darker side of the DC Universe. It celebrates the diverse cast of characters and their unique abilities while delivering an engaging and thought-provoking tale of magic and mayhem.",
-        img:'https://d3dfsf9oc1ojzp.cloudfront.net/original/4X/7/3/b/73b08b82c41c646a8e21866f0998ecf5472ce7df.jpeg',
+        img:'https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/1994895b-f0bc-4ebf-9e1f-35f40198e49d/ff2f9e67274d917ef99cf7e65c3e69ec938030fd.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom    ',
     },
     {
         id:'12',

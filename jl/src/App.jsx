@@ -21,6 +21,7 @@ import Full from './Pages/FullCharacters';
 import Movies from './Pages/Movies'
 import Games from './Pages/Games'
 import Shows from './Pages/Shows'
+import Banner from './Components/banner'
 
 const App = () => {
     return ( 
@@ -28,7 +29,7 @@ const App = () => {
            <Router>
                     <div>
                         <Navbar />
-                        {/* <Banner/> */}
+                        <Banner/>
                             <p style={{height: '10vh'}} />
                             <Routes>
                                 <Route index element={<Home />} />

@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Image from '../Images/JLBanner.png'
 const banner = () => {
   return (
     <div className="banner">
-        <img src="https://wallpapers.com/images/high/justice-league-symbol-minimal-art-bw3c08jo19yeku7p.webp" alt="" />
+        <img src={Image} alt="" />
     </div>
   )
 }
