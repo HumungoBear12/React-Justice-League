@@ -8,7 +8,7 @@ const Home = () => {
     <div>
         {/* <Banner/> */}
         <div className="home-container">
-          <h2 className='home-2'>The Justice League</h2>
+          
           <div className="home-flex">
             <img className="ZSJL" src="https://comichub.blob.core.windows.net/high/ed81177b-bf0f-4d4d-8155-3f1ba56e0f68.jpg" alt="" />
             <div className="home-info">

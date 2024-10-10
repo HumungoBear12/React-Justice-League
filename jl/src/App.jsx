@@ -22,14 +22,17 @@ import Movies from './Pages/Movies'
 import Games from './Pages/Games'
 import Shows from './Pages/Shows'
 import Banner from './Components/banner'
+import Header from './Components/header'
 
 const App = () => {
     return ( 
         <div>
            <Router>
                     <div>
+                        
                         <Navbar />
                         <Banner/>
+                        <Header/>
                             <p style={{height: '10vh'}} />
                             <Routes>
                                 <Route index element={<Home />} />
